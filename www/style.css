@@ -1,14 +1,18 @@
 html, body{
 	margin: 0;
+	background-color: Black;
 }
+
 /* amatic SC is the handwrittenish one, Open Sans Condensed is simple paragraph font */
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Amatic SC', 'Oswald', sans-serif;
+	color: White;
 	text-transform: uppercase;
 }
 
 p {
 	font-family: "Open Sans Condensed", Helvetica, sans-serif;
+	color: White;
 }
 
