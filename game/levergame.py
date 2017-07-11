@@ -26,9 +26,19 @@ def prize():
   prizeno = ra.randint(0,20)
   if any(prizeno%5 == 0):
     print "The capsule is empty."
-  
+
+def checkinventory():
+  if capsuleinventory == 0:
+    print "You have no capsules."
+  else:
+    print "You open a capsule."
+    prize()
+    
 
 pull = Button(techo, text="Pull Lever", command=staticpull)
 pull.pack()
+
+capsule_inventory = Button(techo, text="Open Capsule ("+str(capsuleinventory)+")", command=checkinventory)
+
 
 mainloop()
