@@ -1,1 +1,1 @@
-from Tkinter import *
+import tkinter as tk
