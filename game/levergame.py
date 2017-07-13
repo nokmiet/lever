@@ -22,10 +22,29 @@ def randomizer():
   else:
     return False
 
+#sticks, sharp metal, nail file, mouse, string, cheese, paper, ashes
+#start in a room with nothing but a lever and a mousehole on a large locked door and a narrow open mail slot at the top of the wall
+    #opt 1: paper airplane * string
+    #opt 2: mouse * cheese * string
+    #opt 3: cut up a bunch of empty capsules and shove them through the door
+        #extras: 
+            # nail file/sharp metal + mouse = dead mouse
+            # sticks + sharp metal = shiv
+            # string + sticks + capsule = fishing rod
+                #OR string + sharp metal + sticks
+            # sticks + cheese = cheesesticks
+            # metal + file = sharper metal
+                # sharper metal + stick = exacto knife
+            
 def prize():
   prizeno = ra.randint(0,20)
   if any(prizeno%5 == 0):
     print "The capsule is empty."
+  elif prizeno == 1
+  elif prizeno == 2
+  elif prizeno == 3
+  elif prizeno == 4
+  elif prizeno == 6
 
 def checkinventory():
   if capsuleinventory == 0:
@@ -39,6 +58,5 @@ pull = Button(techo, text="Pull Lever", command=staticpull)
 pull.pack()
 
 capsule_inventory = Button(techo, text="Open Capsule ("+str(capsuleinventory)+")", command=checkinventory)
-
 
 mainloop()
